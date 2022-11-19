@@ -7,7 +7,10 @@
     "dev": "concurrently npm:sass-watch npm:browser-sync start --server --files **/*.js styles.css index.html",
     "browser-sync": "browser-sync start --server --files index.html styles.css",
     "sass": "sass styles.scss styles.css",
-    "sass-watch": "sass --watch *.scss styles.css"
+    "sass-watch": "sass --watch *.scss styles.css",
+    "lint": "eslint .eslintrc.js",
+    "lint-fix": "eslint .eslintrc.js"
+
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +20,9 @@
     "sass": "^1.56.1"
   },
   "devDependencies": {
+    "eslint": "^8.28.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "stylelint": "^14.15.0",
     "stylelint-config-sass-guidelines": "^9.0.1"
   }

@@ -1,0 +1,14 @@
+{
+  "name": "hoverkefni2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "browser-sync start --server --files **/*.js styles.css index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.27.10"
+  }
+}

@@ -14,4 +14,17 @@ button {
   right: 0;
 }
 
+li {
+  outline: 2px solid black;
+  background-color: pink;
+}
+
+* {
+  font-family: monospace;
+}
+
+img {
+  image-resolution: 3dpi;
+}
+
 /*# sourceMappingURL=styles.css.map */

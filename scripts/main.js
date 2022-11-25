@@ -2456,9 +2456,11 @@ const events = [
   let output = '<ul>';
   
   events.forEach((event) => {
-    output += `<li>${event.id})  Name: ${event.language.is.title} - Age: ${event.language.is.text} - Phone: ${event.language.is.place} </li> `;
+    output += `<li>${event.language.is.title} - ${event.language.is.place} - ${event.start} - ${event.end} </li>`;
   });
   
   output += '</ul> <hr>';
   document.getElementById('output').innerHTML += output;
+
+
 
